@@ -70,7 +70,7 @@ __git_files () {
 }
 
 # Use powerline
-source /home/will/.local/lib/python2.7/site-packages/powerline/bindings/zsh/powerline.zsh
+source /usr/local/lib/python2.7/dist-packages/powerline/bindings/zsh/powerline.zsh
 
 # Source every .zsh file in this repo
 for config_file ($DOTFILES/**/*.zsh) source $config_file
@@ -126,11 +126,3 @@ env x='() { :;}; echo "WARNING: SHELLSHOCK DETECTED"' \
 # will be printed if your shell has been patched. It will take a little longer
 # to launch a new shell slightly, but for some, this may be worth it.
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-export NVM_DIR="/home/will/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
-
-# Grunt task tab-completion
-eval "$(grunt --completion=zsh)"
-# Gulp task tab-completion
-eval "$(gulp --completion=zsh)"

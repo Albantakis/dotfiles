@@ -1,3 +1,6 @@
+[user]
+  name = Larissa Albantakis
+  email = albantakis@wisc.edu
 [alias]
   co = checkout
   b = branch
@@ -37,11 +40,8 @@
   added = green
   changed = yellow
   untracked = cyan
-[user]
-  name = Will Mayner
-  email = wmayner@gmail.com
 [core]
-  excludesfile = /Users/will/.gitignore
+  excludesfile = /home/larissa/.gitignore
   autocrlf = input
 [credential]
   helper = cache --timeout=10800

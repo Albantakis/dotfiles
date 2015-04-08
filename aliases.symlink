@@ -119,29 +119,6 @@
 
 # }}}
 
-# Latex {{{
-
-  # run latexmk with following options:
-  # compile to pdf
-  # 'preview continuously'
-  # run despite erros
-  alias latexmk="latexmk -pdf -pvc"
-  alias ltx="latexmk"
-
-  # vim the .tex files in the current directory
-  alias vtex="find . -iname '*.tex' -exec vim {} \;"
-  # vim the .tex files in the current directory
-  alias mtex="find . -iname '*.tex' -exec vim {} \;"
-
-# }}}
-
-# Webdev {{{
-
-  # cd my website
-  alias cdsite="cd $CODE/willmayner.com/"
-
-# }}}
-
 # fasd {{{
 
   # use j for z
